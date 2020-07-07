@@ -1,0 +1,9 @@
+x=int(input("enter how many fibonacci numbersto be printed"))
+first = 0
+second = 1
+for i in range(x):
+    print(first)
+    temp = first
+    first = second
+    second = temp+second
+    
