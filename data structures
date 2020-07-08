@@ -1,0 +1,27 @@
+list1=[11,-17,-5,64,-4]
+list1.append("ott")
+print(list1) 
+output:[11, -17, -5, 64, -4, 'ott']
+
+list2=["jonas","martha","dark"]
+list2.append("20")
+print(list2)    
+ output:['jonas', 'martha', 'dark', '20']
+ 
+tpl=(1,-56,100,"cpu",34,"coffee","tea","green",56)
+print(tpl[1])
+print(tpl[4])
+print(tpl[7])
+output:
+-56
+34
+green
+
+dict={1:"c",2:"c++",3:"java",4:"python",5:"matlab",6:"fortan"}
+del dict[3]
+print(dict)
+output:{1: 'c', 2: 'c++', 4: 'python', 5: 'matlab', 6: 'fortan'}
+
+del dict[5]
+print(dict)
+output:{1: 'c', 2: 'c++', 4: 'python', 6: 'fortan'}
